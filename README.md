@@ -95,4 +95,4 @@ $ python3 query.py "Как устроена память агента в jarvis-
 
 ## Лицензия
 
-MIT — см. [LICENSE](LICENSE)
+All rights reserved — см. [LICENSE](LICENSE). Код опубликован для ознакомления; переиспользование требует письменного разрешения автора.
