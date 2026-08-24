@@ -1,0 +1,14 @@
+services:
+  rag-assistant:
+    build: .
+    ports:
+      - "8901:8901"
+    env_file:
+      - .env
+    volumes:
+      - ./knowledge_base:/app/knowledge_base
+      - chroma_data:/app/chroma_db
+    command: uvicorn web_app:app --host 0.0.0.0 --port 8901
+
+volumes:
+  chroma_data:
